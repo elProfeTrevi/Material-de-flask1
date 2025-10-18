@@ -4,7 +4,7 @@ print(frase[1:5])
 print(frase[:5])
 print(frase[4:])
 print(frase[::-1])
-
+     
 frase1 = input("Favor de teclear una frase")
 frase2 = frase1.lower().replace(" ","")
 if frase2 == frase2[::-1]:
